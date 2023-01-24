@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="game">
+            <div class="input">
+                <label>Player's name: </label>
+                <input id="player_name" type="text" placeholder="Playser_1" required>
+                <label>Map's height: </label>
+                <input id="map_height" type="number" min=5 max=25 value=5>
+                <label>Map's width: </label>
+                <input id="map_width" type="number" min=5 max=25 value=5>
+                <button id="generateButton">Generate map</button>
+            </div>
+            <div class="gameElements">
+                <p id="player_position"></p>
+                <p id="player_score"></p>
+                <canvas id="gameMap" width="250px" height="250px">
+                    Canvas not supported.
+                </canvas>
+            </div>
+        </div>
+        <script src="assets/main.js"></script>
+    </body>
+</html>

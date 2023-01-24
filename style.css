@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.game {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+#gameMap {
+    border: 4px black solid;
+}
+
+.input {
+    display:flex;
+    font-size: 20px;
+}
+
+.input > input + label {
+    margin-left: 25px;
+}
+
+.input > label + input {
+    margin-left: 10px;
+}
+
+.gameElements {
+    font-size: 20px;
+}
